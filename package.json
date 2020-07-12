@@ -5,15 +5,16 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
-    "@types/socket.io-client": "1.4.33",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-scripts": "3.0.1",
     "react-spring": "8.0.27",
     "socket.io-client": "2.3.0",
+    "styled-components": "^5.1.1",
     "xmlhttprequest-ssl": "1.6.0"
   },
   "devDependencies": {
+    "@types/socket.io-client": "1.4.33",
     "typescript": "3.8.3"
   },
   "scripts": {
@@ -27,5 +28,6 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "license": "MIT"
 }
