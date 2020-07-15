@@ -5,7 +5,7 @@ import NavBar from "./components/NavBar";
 import Connected from "./components/Connected";
 import Chat from "./components/Chat";
 import { AppContainer } from "./styles";
-const socket = io.connect("10.0.0.104:3000");
+const socket = io.connect("10.0.0.104:3333");
 
 export default function App() {
   const [connected, setConnected] = useState(false);
